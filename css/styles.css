@@ -4,3 +4,7 @@ body {
 .question {
   margin-top: 36px;
 }
+
+.answer {
+  display: none;
+}
