@@ -13,17 +13,25 @@ $(document).ready(function (){
   var question4 = $("input:radio[name=q4]:checked").val();
   var question5 = $("input:radio[name=q5]:checked").val();
 
+
+
   if (question1 === "conventional" &&  question3 === "conventional" && question4 === "conventional") {
           $(".answer").show();
           $("#python").hide();
           $("#sql").show();
           $("#scala").hide();
           $("#unclear").hide();
-        } else if (question2 === "extrovert") {
+        } else if (question1 === "conventional" && question2 === "extrovert") {
+          $(".answer").show();
+          $("#python").show();
+          $("#sql").show();
+          $("#scala").hide();
+          $("#unclear").hide();
+        } else if (question1 === "balance" | question4 === "extrovert") {
           $(".answer").show();
           $("#python").show();
           $("#sql").hide();
-          $("#scala").hide();
+          $("#scala").show();
           $("#unclear").hide();
         } else if (question5 === "balance") {
           $(".answer").show();
