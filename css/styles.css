@@ -15,6 +15,14 @@ h5 {
   margin-top: 24px;
 }
 
+a {
+  color: #000066;
+  font-style: italic;
+}
+
+strong {
+  color: #000066;
+}
 
 .clickable {
   color: #000066;
@@ -27,4 +35,10 @@ h5 {
 
 #answer {
   display: none;
+}
+#disclaimer {
+  font-size: 8pt;
+  font-style: italic;
+  border: 2px solid darkgray;
+
 }
