@@ -29,6 +29,14 @@ strong {
   cursor: pointer;
 }
 
+.jumbotron {
+  background-color: #ccccb3;
+}
+
+.well {
+  background-color: #ccccb3;
+}
+
 #quizQuestions {
   margin-top: 36px;
 }
