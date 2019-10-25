@@ -11,13 +11,13 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-      <h1>So You Want To Be A Programmer...</h1>
+      <h1>So You Want To Be A Programmer ...</h1>
       <p>Programming is a dynamic, challenging field, and there's always something to learn. But where to start?</p>
       </div>
 
       <p>Our Language Suggester will offer ideas of what you might want to try first. Over time, you will undoubtedly learn more languages&#8212that's just part of the world of programming.</p>
 
-      <div class="quizQuestions">
+      <div id="quizQuestions">
         <form id="quiz">
           <h3>First, some questions for you.</h3>
 
@@ -115,14 +115,17 @@
               </label>
             </div>
           </div>
-          <button type="submit" name="button">Click here to see our suggestions!</button>
+          <h4>All done?</h4>
+           <p><span class="clickable">Click here to see your results!</span></p>
 
         </form>
 
       </div>
 
-      <div class="answer">
-        <h3>Here are your results! <span class="clickable">Click here to take the quiz again!</span></h3>
+      <div id="answer">
+        <h4>Here are your results!
+         </h4>
+         <p> <span class="clickable">Click here to take the quiz again!</span></p>
         <div id="python">
           <ul>
             <li><strong>Python: </strong>Extroverted types like you usually find that Python is a good fit.</li>

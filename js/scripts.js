@@ -1,7 +1,10 @@
 $(document).ready(function (){
-  $("form#quiz").submit(function(event)
+  $(".clickable").click(function(event)
   {
     event.preventDefault();
+
+    $("#quizQuestions").toggle();
+    $("#answer").toggle();
 
 
   var question1 = $("input:radio[name=q1]:checked").val();
@@ -9,9 +12,6 @@ $(document).ready(function (){
   var question3 = $("input:radio[name=q3]:checked").val();
   var question4 = $("input:radio[name=q4]:checked").val();
   var question5 = $("input:radio[name=q5]:checked").val();
-
-    $(".quizQuestions").toggle();
-    $(".answer").toggle();
 
   if (question2 === "extrovert" | question4 === "extrovert") {
           $(".answer").show();
