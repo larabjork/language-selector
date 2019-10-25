@@ -33,7 +33,7 @@ There shouldn't be any special setup required. If something doesn't display corr
 
 ### Where to Find This Project
 https://github.com/larabjork/language-selector.git
-<!-- (IF GH PAGE CREATED, INSERT PATH HERE) -->
+
 
 ### License
 This software is licensed under the MIT license.
