@@ -10,13 +10,22 @@ $(document).ready(function (){
   var question4 = $("input:radio[name=q4]:checked").val();
   var question5 = $("input:radio[name=q5]:checked").val();
 
-  if (question2 === "extrovert" && question4 === "extrovert") {
+    $(".quizQuestions").toggle();
+    $(".answer").toggle();
+
+  if (question2 === "extrovert" | question4 === "extrovert") {
           $(".answer").show();
           $("#python").show();
           $("#sql").hide();
           $("#scala").hide();
           $("#unclear").hide();
-        } else if (question1 === "established" && question3 === "established"){
+        } else if (question1 === "conventional" && question3 === "conventional"){
+          $(".answer").show();
+          $("#python").hide();
+          $("#sql").show();
+          $("#scala").hide();
+          $("#unclear").hide();
+        } else if (question5 === "balance"){
           $(".answer").show();
           $("#python").hide();
           $("#sql").show();
@@ -26,7 +35,7 @@ $(document).ready(function (){
           $(".answer").show();
           $("#python").hide();
           $("#sql").hide();
-          $("#scala").show();
+          $("#scala").hide();
           $("#unclear").show();
         }
 

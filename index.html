@@ -17,11 +17,12 @@
 
       <p>Our Language Suggester will offer ideas of what you might want to try first. Over time, you will undoubtedly learn more languages&#8212that's just part of the world of programming.</p>
 
-      <form id="quiz">
-        <h3>First, some questions for you.</h3>
+      <div class="quizQuestions">
+        <form id="quiz">
+          <h3>First, some questions for you.</h3>
 
-        <div class="question" id="one">
-          <h5>What do you care most about?</h5>
+          <div class="question" id="one">
+            <h5>What do you care most about?</h5>
             <div class="radio">
               <label>
                 <input type="radio" name="q1" value="extrovert" checked>Elegant layout&#8212<em>aesthetics are really important to me.</em>
@@ -37,10 +38,10 @@
                 <input type="radio" name="q1" value="balance" checked>I really don't know yet&#8212;<em>is that okay??</em>
               </label>
             </div>
-        </div>
+          </div>
 
-        <div class="question" "two">
-          <h5>What kind of company do you want to work for?</h5>
+          <div class="question" "two">
+            <h5>What kind of company do you want to work for?</h5>
             <div class="radio">
               <label>
                 <input type="radio" name="q2" value="extrovert" checked>High-energy and fun! I want to try new ideas.
@@ -56,10 +57,10 @@
                 <input type="radio" name="q2" value="balance" checked>My priority is to have great coworkers and an awesome boss.
               </label>
             </div>
-        </div>
+          </div>
 
-        <div class="question" id="three">
-          <h5>How important is it to you to be able to work from home?</h5>
+          <div class="question" id="three">
+            <h5>How important is it to you to be able to work from home?</h5>
             <div class="radio">
               <label>
                 <input type="radio" name="q3" value="extrovert" checked>Not important at all! I plan on living at the office anyway!
@@ -75,10 +76,10 @@
                 <input type="radio" name="q3" value="balance" checked>This is a must for me. Work-life balance is a huge concern of mine.
               </label>
             </div>
-        </div>
+          </div>
 
-        <div class="question" id="four">
-          <h5>Pick the option that describes your ideal workday.</h5>
+          <div class="question" id="four">
+            <h5>Pick the option that describes your ideal workday.</h5>
             <div class="radio">
               <label>
                 <input type="radio" name="q4" value="extrovert" checked>Lots of social interaction. Pair programming + meetings please!
@@ -94,10 +95,10 @@
                 <input type="radio" name="q4" value="balance" checked>Chatting with coworkers is good, as is solving problems together. But I'd like to be able to dig into my own work, too.
               </label>
             </div>
-        </div>
+          </div>
 
-        <div class="question" id="five">
-          <h5>What is your favorite color?</h5>
+          <div class="question" id="five">
+            <h5>What is your favorite color?</h5>
             <div class="radio">
               <label>
                 <input type="radio" name="q5" value="extrovert" checked>Pantone Purple C (rgb is 187, 41, 187), of course
@@ -113,13 +114,15 @@
                 <input type="radio" name="q5" value="balance" checked>The color of the sea on a stormy day, although the ocean is never just one color, is it?
               </label>
             </div>
-        </div>
-        <button type="submit" name="button">Click here to see our suggestions!</button>
+          </div>
+          <button type="submit" name="button">Click here to see our suggestions!</button>
 
-      </form>
+        </form>
+
+      </div>
 
       <div class="answer">
-        <h3>Here are your results!</h3>
+        <h3>Here are your results! <span class="clickable">Click here to take the quiz again!</span></h3>
         <div id="python">
           <ul>
             <li><strong>Python: </strong>Extroverted types like you usually find that Python is a good fit.</li>
@@ -143,6 +146,8 @@
             <li><strong>Start anywhere! </strong>Your preferences show that you'd be a good match for any programming language you choose. Go for it!</li>
           </ul>
         </div>
+
+        <!-- <button type="submit" name="button">Click here to take the quiz again!</button> -->
 
 
       </div>
