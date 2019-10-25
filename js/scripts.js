@@ -10,13 +10,13 @@ $(document).ready(function (){
   var question4 = $("input:radio[name=q4]:checked").val();
   var question5 = $("input:radio[name=q5]:checked").val();
 
-  if (question1 === "extrovert" && question2 === "extrovert" && question3 === "extrovert" && question4 === "extrovert" && question5 === "extrovert") {
+  if (question2 === "extrovert" && question4 === "extrovert") {
           $(".answer").show();
           $("#python").show();
           $("#sql").hide();
           $("#scala").hide();
           $("#unclear").hide();
-        } else if (question1 === "established" && question2 === "established"){
+        } else if (question1 === "established" && question3 === "established"){
           $(".answer").show();
           $("#python").hide();
           $("#sql").show();
@@ -27,7 +27,7 @@ $(document).ready(function (){
           $("#python").hide();
           $("#sql").hide();
           $("#scala").show();
-          $("#unclear").hide();
+          $("#unclear").show();
         }
 
   // if (question2 === "startup") {
