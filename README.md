@@ -31,6 +31,7 @@ There shouldn't be any special setup required. If something doesn't display corr
 * Although there is responsive sizing in place, this project is best viewed on standard desktop. It was not tested on a large desktop, table, or phone.
 
 
+
 ### Where to Find This Project
 https://github.com/larabjork/language-selector.git
 <!-- (IF GH PAGE CREATED, INSERT PATH HERE) -->

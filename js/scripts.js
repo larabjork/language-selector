@@ -19,7 +19,7 @@ $(document).ready(function (){
           $("#sql").hide();
           $("#scala").hide();
           $("#unclear").hide();
-        } else if (question1 === "conventional" && question3 === "conventional"){
+        } else if (question1 === "conventional"){
           $(".answer").show();
           $("#python").hide();
           $("#sql").show();
@@ -39,25 +39,6 @@ $(document).ready(function (){
           $("#unclear").show();
         }
 
-  // if (question2 === "startup") {
-  //         $(".answer").show();
-  //         $("#python").show();
-  //         $("#sql").hide();
-  //         $("#scala").hide();
-  //         $("#unclear").hide();
-  //       } else if (question2 === "established"){
-  //         $(".answer").show();
-  //         $("#python").hide();
-  //         $("#sql").show();
-  //         $("#scala").hide();
-  //         $("#unclear").hide();
-  //       } else {
-  //         $(".answer").show();
-  //         $("#python").hide();
-  //         $("#sql").hide();
-  //         $("#scala").show();
-  //         $("#unclear").hide();
-  //       }
 
 
 });
